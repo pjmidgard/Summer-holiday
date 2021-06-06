@@ -1,4 +1,4 @@
 # Summer-holiday
 Summer holiday
 
-Write by Jurijus Pacalovas
+Written by Jurijus Pacalovas

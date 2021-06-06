@@ -3,7 +3,13 @@
 import collections
 import pause
 
+import subprocess
+
+p = subprocess.call('pytest morakot_support/tests', shell=True)
+print(p)
 from random import shuffle
+
+from pynput.keyboard import Key, Listener
 
 #Python code in one module gains access to the code in another module by the process of importing it.
 #The import statement is the most common way of invoking the import machinery, but it is not the only way. modules ), only the import statement performs a name binding operation.
@@ -238,6 +244,29 @@ class Deck:
         else:
             return("All cards have been dealt")
 
+    def __repr__(self):
+        return "{} of {}".format(self.value, self.suit)
+
+    
+  
+
+  
+def show(key):
+    
+    if key == Key.tab:
+        print("good")
+          
+    if key != Key.tab:
+        print("try again")
+          
+    # by pressing 'delete' button 
+    # you can terminate the loop 
+    if key == Key.delete: 
+        return False
+  
+# Collect all event until released
+
+
 d=Deck()
 F=FrenchDeck()
 print("Deck created")
@@ -247,9 +276,19 @@ x=d.shuffle()
 for i in x:
     print(i)
 a=int(input("\n \nEnter 1 to deal the cards \n"))
-WON=int(input("You have won!!!"))
 
-while(a==1):
+
+
+ 
+# or #
+ 
+
+
+
+for i in x:
+    print(i)
+b=int(input("\n\nYou have won, Please enter any number !!!\n"))
+while(a==1 and b==1):
     print(d.deal())
     print()
     print(d)
@@ -261,9 +300,21 @@ while(a==1):
     print(a)
     print()
     a=int(input("Enter 1 to deal the cards (or) any key to discontinue \n"))
+   
+
+    b=int(input("Enter 2 to deal the cards (or) any key to discontinue \n"))
+   
+
     
     print()
-    print(WON)
+    print(b)
+    pause.minutes(1)
+    
+    
+    
+    
 print(d.shuffle())
-pause.minutes(1)
+with Listener(on_press = show) as listener:
+    listener.join()
+
 #out put data

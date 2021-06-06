@@ -1,6 +1,7 @@
 #Author: Jurijus Pacalovas
 #Author: Jurijus Pacalovas
 import collections
+import pause
 
 from random import shuffle
 
@@ -246,6 +247,7 @@ x=d.shuffle()
 for i in x:
     print(i)
 a=int(input("\n \nEnter 1 to deal the cards \n"))
+WON=int(input("You have won!!!"))
 
 while(a==1):
     print(d.deal())
@@ -259,5 +261,9 @@ while(a==1):
     print(a)
     print()
     a=int(input("Enter 1 to deal the cards (or) any key to discontinue \n"))
+    
+    print()
+    print(WON)
 print(d.shuffle())
+pause.minutes(1)
 #out put data

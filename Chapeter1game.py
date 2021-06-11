@@ -944,7 +944,7 @@ BOB_player=random.randint(1, 56)
 
 print(BOB_player)
 
-if (a==b):
+if (a==b or a==BOB_player or b==BOB_player):
     print("wrong select card")
 
 

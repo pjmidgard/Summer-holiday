@@ -7,4 +7,4 @@ Written by Jurijus Pacalovas
 
 D11A3HA
 
-10 Euro 
+10 Euro 💶

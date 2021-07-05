@@ -2,5 +2,5 @@
 Summer holiday
 
 I have written two programs called GOD and DECK_Frech in Python, these games of cards.
-Я сделал эту программу за 2 дня I  haveritt 
-По сценарию Юриюса Пакаловаса
+I have written a program.
+PAQ v77 and AES compression

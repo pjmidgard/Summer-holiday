@@ -22,3 +22,4 @@ The --compress (-C) option is compatible with earlier releases of MySQL Shell (b
 
 mysqlx.getSession(), mysql.getSession(), or mysql.getClassicSession() function, use the compression parameter in the dictionary of options to specify whether compression is required, preferred, or disabled. For example: mysql-js> var s1=mysqlx.getSession({host: 'localhost', user: 'root', password: 'password', compression: 'required'}); Select compression algorithms using the compression-algorithms parameter, and a compression level using the compression-level parameter, as for the command line and URI- like connection string methods. (There is no zstd-specific compression level parameter for key-value pairs.) You can also use the compression-algorithms parameter without the compression parameter, including or omitting the uncompressed option to allow or disallow uncompressed connections and zeroes and ones.
 
+Who from putting now as this file get say wow but not me.

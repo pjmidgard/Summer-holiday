@@ -8,8 +8,7 @@ Need to change the name of the file to extract it back and do questions need the
 zstd or zst-.bin... a, b 4.15 v. Speed Max 2KB or 7.32-10MB/s c. 0%-99.8134.
 Supercomputer 10GB\s
 Cryptography
-Compression process percents Max 72%-82% c. Supercomputers 2 hours working were.
-
+Compression process percents Max 72%-82% c. Supercomputers 2 hours working were. Sometimes 19 Bytes.
 https://www.python.org/downloads/release/python-384/
 
 

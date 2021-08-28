@@ -18,6 +18,8 @@ cld, cld3, cld, cld3; cldd3, cldd, cldd3, cldd .bin.bin.bin.bin.bin.bin.bin.bin.
 
 ul; cl; .bin
 
+ul2, cld; cldd cl2 .bin.bin.bin.bin.bin
+
 cld ; cldd .bin.bin
 
 ul, cld; cl, cldd .bin.bin.bin

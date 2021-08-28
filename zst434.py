@@ -64,12 +64,12 @@ wer=""
 qtqweqw=""
 numberschangenotexist = []
 numbers = []
-namez = input("ul,c,c2 or for compress cl for extract for compress zst cld,u,u2 fo extract zst cldd and cld3; cldd3? ")
+namez = input("ul,c,c2 or for compress cl for extract for compress zst cld,u,u2 fo extract zst cldd ul4 ; cl4 and cld3; cldd3? ")
 #@Author Jurijus pacalovas
 class compression:
 
 	def cryptograpy_unpack4(self):                      
-                 if namez=="cl":
+                 if namez=="cl4":
                     corridors=0
                     cor=7
                     name = input("What is name of file? ")
@@ -290,7 +290,7 @@ class compression:
                 self.name = "Written: Jurijus pacalovas Price Protal 5 000 000 Euro cost Date: 13/08/2021 21:26 Deep 14.5 ERA"
 
 
-                if namez=="ul":
+                if namez=="ul4":
                     corridors=0
                     cor=7
                     name = input("What is name of file? ")

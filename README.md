@@ -9,6 +9,7 @@ Instruction:
 1. Need python 
 2. install pip: pip install zstd
 3. install pip: pip install brotli
+4. install pip: pip install lzma
 4.
 ul, cld, cld3 ; cldd3, cldd, cl .bin.bin.bin.bin.bin.bin
 
@@ -23,6 +24,10 @@ ul2, cld; cldd cl2 .bin.bin.bin.bin.bin
 cld ; cldd .bin.bin
 
 ul, cld; cl, cldd .bin.bin.bin
+
+ul5, cld; cl5, cldd .bin.bin.bin.bin.bin.bin
+
+ul4, cld; cl4, cldd .bin.bin.bin.bin.bin
 
 c; u .bin.bin.bin.bin
 

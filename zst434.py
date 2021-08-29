@@ -851,6 +851,8 @@ class compression:
 	                        assx=10
 	                        
 	                        f2.write(jl)
+	                        x2 = time()
+	                        x3 = x2-x
 	                        return print(x3) 
 
     
@@ -1183,6 +1185,8 @@ class compression:
 	            jl=binascii.unhexlify('%x' % n)
 	            with open(namea, "ab") as f2ww:             
 	                f2ww.write(jl)
+	                x2 = time()
+	                x3 = x2-x
 	                return print(x3)
 	                
 	def Uextract(self):

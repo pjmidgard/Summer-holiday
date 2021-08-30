@@ -2122,7 +2122,8 @@ class compression:
 			    x1=0
 			    x2=0
 			    x = time()
-			   
+			    
+			    assx=0
 	            
 				#x=0
 	            #x1=0

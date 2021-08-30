@@ -1486,6 +1486,7 @@ class compression:
 	            countraz=0
 	            
 	            s=""
+	            assx=0
 	           
 	
 	            with open(nameas, "w") as f4:

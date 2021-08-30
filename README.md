@@ -24,7 +24,9 @@ ul5, cld; cl5, cldd .bin.bin.bin.bin.bin.bin
 
 ul4, cld; cl4, cldd .bin.bin.bin.bin.bin
 
-c; u .bin.bin.bin.bin
+c; u .bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin
+
+c2; u2 .bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin.bin
 
 
 Jurijus Pacalovas written program.

@@ -1,9 +1,14 @@
 # Summer-holiday
 Summer holiday
 
+
+
 I have written two programs called GOD and DECK_Frech in Python, these games of cards.
 # Portal-zst
-Speed: Absolute 2KB Ultra 2MB-10MB Max 8GB-80GB/s
+
+https://youtu.be/UZHmv0G84s0
+
+Speed: Area 100B-1KB Absolute 2KB Ultra 2MB-10MB Max 8GB-80GB/s
 
 Instruction:
 1. Need python 
